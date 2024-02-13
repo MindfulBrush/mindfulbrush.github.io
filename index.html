@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mindful Brush</title>
-    <link rel="stylesheet" href="https://use.typekit.net/pwx2emj.css"> <!-- Adobe Typekit font -->
+    <title>Mindful Brush - Art Therapy for Mindfulness</title>
+    <meta name="description" content="Discover Mindful Brush's unique blend of art therapy and mindfulness through curated products designed for creative exploration and mental well-being.">
+    <link rel="stylesheet" href="https://use.typekit.net/pwx2emj.css">
     <style>
         body, html {
             height: 100%;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: center; /* Vertically centers the content */
+            align-items: center;
             background-color: #ff4c03;
-            color: #085a2d; /* Sets text color */
-            font-family: Arial, sans-serif; /* Default font */
+            color: #085a2d;
+            font-family: "omnes-semicond-thin", sans-serif;
             text-align: center;
         }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Horizontally centers the content */
-            justify-content: center;
-            width: 100%;
-        }
         .logo img {
-            width: 375px; /* Logo width */
-            max-width: 100%; /* Ensures responsiveness */
-            margin-bottom: 60px; /* Space between the logo and the heading */
+            width: 375px;
+            max-width: 100%;
+            margin-bottom: 100px;
         }
         h1 {
-            color: #085a2d; /* Heading color */
-            font-family: "omnes-semicond-thin", sans-serif; /* Applies your specified Typekit font */
-            font-weight: 600; /* Increased font weight */
-            font-style: normal; /* Normal font style */
-            font-size: 1.75em; /* Increased font size */
-            width: 50%; /* Heading takes up 66% of the page width */
-            margin: 0 auto; /* Centers the heading text block */
-            padding: 0 20px; /* Ensures text doesn't touch the edges */
+            font-size: 1.75em;
+            font-weight: 600;
+            width: 66%;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+        }
+        .signup {
+            margin-top: 20px;
+        }
+        input[type=email] {
+            padding: 10px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.9;
         }
     </style>
 </head>
@@ -49,7 +61,12 @@
         <img src="https://mindfulbrush.github.io/mindfulbrush2.png" alt="Mindful Brush Logo">
     </div>
 
-    <h1>Step into a space where creativity meets mindfulness, and every creation is a step towards inner peace. Our curated art therapy products are crafted to guide you through a journey of self-exploration and mindful living. Let your creativity flow and embrace tranquility.</h1>
+    <h1>Mindful Brush: Curated Artistry for Mindful Living. Experience the fusion of art therapy and mindfulness with our bespoke products, designed to enhance your well-being.</h1>
+
+    <div class="signup">
+        <input type="email" placeholder="Enter your email for updates">
+        <button>Subscribe</button>
+    </div>
 </div>
 
 </body>
