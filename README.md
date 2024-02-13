@@ -1,7 +1,9 @@
 # mindfulbrush.github.io
 
 
-https://mindfulbrush.github.io/mindfulbrush.png
+
+
+![Logo Alt Text]([URL-of-the-logo-image](https://mindfulbrush.github.io/mindfulbrush.png)
 
 Welcome to Mindful Brush - A Journey of Artistic Mindfulness.
 
