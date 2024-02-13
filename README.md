@@ -1,6 +1,6 @@
 # mindfulbrush.github.io
 
-![Mindful Brush Art Therapy Products](mindfulbrush.github.io/mindfulbrush.png)
+![Mindful Brush Art Therapy Products]([mindfulbrush.github.io/mindfulbrush.png](https://github.com/MindfulBrush/mindfulbrush.github.io/blob/main/mindfulbrush.png?raw=true))
 
 Welcome to Mindful Brush - A Journey of Artistic Mindfulness.
 
