@@ -1,5 +1,6 @@
 # mindfulbrush.github.io
-Landing Page Mindful Brush
+
+![Mindful Brush Art Therapy Products](URL-of-the-logo-image)
 
 Welcome to Mindful Brush - A Journey of Artistic Mindfulness.
 
