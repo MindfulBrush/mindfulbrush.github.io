@@ -2,7 +2,7 @@
 
 ![Mindful Brush Art Therapy Products]([[mindfulbrush.github.io/mindfulbrush.png](https://github.com/MindfulBrush/mindfulbrush.github.io/blob/main/mindfulbrush.png?raw=true)](https://raw.githubusercontent.com/MindfulBrush/mindfulbrush.github.io/main/mindfulbrush.png))
 
-
+![Logo Alt Text]([URL-of-the-logo-image](https://raw.githubusercontent.com/MindfulBrush/mindfulbrush.github.io/main/mindfulbrush.png)
 
 ![Logo Alt Text]([URL-of-the-logo-image](https://raw.githubusercontent.com/MindfulBrush/mindfulbrush.github.io/main/mindfulbrush.png))
 
