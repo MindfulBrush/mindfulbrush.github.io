@@ -1,6 +1,7 @@
 # mindfulbrush.github.io
 
 
+https://mindfulbrush.github.io/mindfulbrush.png
 
 Welcome to Mindful Brush - A Journey of Artistic Mindfulness.
 
