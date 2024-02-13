@@ -11,28 +11,29 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center; /* This aligns items vertically in the center */
+            align-items: center; /* Vertically centers the content */
             background-color: #ff4c03;
-            color: #085a2d; /* Green text color for all text */
+            color: #085a2d; /* Sets text color */
             font-family: Arial, sans-serif;
             text-align: center;
         }
         .container {
             display: flex;
             flex-direction: column;
-            align-items: center; /* This aligns items horizontally in the center */
+            align-items: center; /* Horizontally centers the content */
             justify-content: center;
-            width: 100%; /* Ensures the container takes up full width */
+            width: 100%;
         }
         .logo img {
-            width: 500px; /* Set logo width, maintaining proportion */
+            width: 375px; /* Adjusts logo width */
             max-width: 100%; /* Ensures responsiveness */
+            margin-bottom: 25px; /* Adds space between the logo and the heading */
         }
-        h1, p {
-            color: #085a2d;
+        h1 {
+            color: #085a2d; /* Ensures the heading color matches the text color specification */
+            margin: 0; /* Removes default margin to control spacing precisely */
         }
     </style>
-    <link rel="stylesheet" href="https://use.typekit.net/pwx2emj.css">
 </head>
 <body>
 
@@ -41,11 +42,7 @@
         <img src="https://mindfulbrush.github.io/mindfulbrush.png" alt="Mindful Brush Logo">
     </div>
 
-    <div class="content">
-        <h1>Welcome to Mindful Brush</h1>
-        <p>A Journey of Artistic Mindfulness.</p>
-        <p>At Mindful Brush, we empower individuals to explore their inner world through the creative process, making art therapy accessible to everyone.</p>
-    </div>
+    <h1>Welcome to Mindful Brush</h1>
 </div>
 
 </body>
