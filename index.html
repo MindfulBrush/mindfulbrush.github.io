@@ -6,78 +6,93 @@
 
     <!-- ——— Primary SEO tags ——— -->
     <title>Art Therapy Kits &amp; Mindful Painting Supplies | Mindful Brush</title>
-    <meta name="description" content="Discover Mindful Brush – evidence‑based art therapy kits, mindful painting supplies and creative wellness tools that turn art into daily self‑care.">
+    <meta name="description" content="Discover Mindful Brush – evidence‑based art therapy kits, mindful painting supplies and creative wellness tools that turn art into daily self‑care." />
 
-    <!-- Open Graph / Social Sharing -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.mindfulbrush.com/">
-    <meta property="og:title" content="Mindful Brush® | Art Therapy Kits &amp; Mindful Painting Supplies">
-    <meta property="og:description" content="Create, relax &amp; heal with guided art therapy and mindfulness products.">
-    <meta property="og:image" content="https://www.mindfulbrush.com/assets/hero-social.jpg">
-
-    <link rel="canonical" href="https://www.mindfulbrush.com/">
-    <link rel="stylesheet" href="https://use.typekit.net/pwx2emj.css">
+    <!-- Social / Open Graph basics -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mindfulbrush.com/" />
+    <meta property="og:title" content="Mindful Brush® | Art Therapy Kits &amp; Mindful Painting" />
+    <meta property="og:description" content="Create, relax &amp; heal with guided art therapy and mindfulness products." />
+    <meta property="og:image" content="https://www.mindfulbrush.com/assets/hero-social.jpg" />
+    
+    <link rel="canonical" href="https://www.mindfulbrush.com/" />
+    <link rel="stylesheet" href="https://use.typekit.net/pwx2emj.css" />
 
     <style>
-        /* —— Layout —— */
-        html,body{
-            height:100%;
-            margin:0;
-            padding:0;
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-            background:#fafaf4; /* updated background */
-            color:#085a2d;
-            font-family:"omnes-semicond-thin",sans-serif;
-            text-align:center;
-            -webkit-font-smoothing:antialiased;
+        :root {
+            --green: #085a2d;
+            --bg: #fafaf4;
         }
-        .logo img{
-            width:375px;
-            max-width:100%;
-            margin-bottom:70px;
+
+        * {
+            box-sizing: border-box;
         }
-        h1{
-            font-size:2rem;
-            font-weight:600;
-            width:66%;
-            margin:0 auto 12px;
-            padding:0 20px;
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg);
+            color: var(--green);
+            font-family: "omnes-semicond-thin", sans-serif;
+            text-align: center;
         }
-        h2{
-            font-size:1.25rem;
-            font-weight:500; /* slightly heavier */
-            width:72%;
-            margin:0 auto 30px;
-            padding:0 20px;
-            line-height:1.35;
+
+        .logo img {
+            width: 375px;
+            max-width: 90vw;
+            margin-bottom: 60px;
         }
-        p{
-            font-size:1rem;
-            font-weight:400; /* increased weight */
-            width:70%;
-            max-width:800px;
-            margin:0 auto 0;
-            line-height:1.6;
-            padding:0 20px;
+
+        h1 {
+            font-size: 2rem; /* 32px */
+            font-weight: 600;
+            margin: 0 0 14px 0;
+            width: 80%;
+            max-width: 900px;
         }
-        @media(max-width:600px){
-            h1{font-size:1.5rem;}
-            h2{font-size:1rem;}
+
+        h2 {
+            font-size: 1.35rem; /* 22px */
+            font-weight: 600; /* bolder for readability */
+            margin: 0 0 28px 0;
+            width: 80%;
+            max-width: 760px;
+        }
+
+        p {
+            font-size: 1.125rem; /* 18px for easier reading */
+            font-weight: 400; /* slightly heavier than before */
+            line-height: 1.6;
+            margin: 0 auto;
+            width: 75%;
+            max-width: 700px;
+        }
+
+        /* Accessibility: larger viewports get slightly larger type */
+        @media (min-width: 1024px) {
+            h1 { font-size: 2.25rem; }
+            h2 { font-size: 1.5rem; }
+            p  { font-size: 1.2rem; }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="logo">
-            <img src="https://mindfulbrush.github.io/mindfulbrush2.png" alt="Mindful Brush logo: rainbow brushstroke forming an M shape">
+            <img src="https://mindfulbrush.github.io/mindfulbrush2.png" alt="Mindful Brush logo" />
         </div>
 
         <h1>Art Therapy Kits &amp; Mindful Painting Supplies | Mindful Brush</h1>
         <h2>Reduce Stress, Spark Creativity &amp; Live Mindfully with Evidence‑Based Art Kits</h2>
-        <p>Mindful Brush transforms proven <strong>art therapy</strong> techniques into beautifully curated <strong>mindful painting kits</strong> that make self‑care effortless. Each set includes premium, non‑toxic materials, psychologist‑written mindfulness prompts and step‑by‑step artist tutorials—helping you lower stress, improve focus and express yourself in just 30&nbsp;minutes. Hand‑packed in Melbourne and shipped worldwide, our <strong>creative wellness tools</strong> give everyone—from busy professionals to anxious teens—a simple, science‑backed way to paint, breathe and feel better.</p>
+        <p>
+            Mindful Brush transforms proven <strong>art therapy</strong> techniques into beautifully curated <strong>mindful painting kits</strong> that make self‑care effortless. Each set includes premium, non‑toxic materials, psychologist‑written mindfulness prompts and step‑by‑step artist tutorials—helping you lower stress, improve focus and express yourself in just 30&nbsp;minutes. Hand‑packed in Melbourne and shipped worldwide, our <strong>creative wellness tools</strong> give everyone—from busy professionals to anxious teens—a simple, science‑backed way to paint, breathe and feel better.
+        </p>
     </div>
 </body>
 </html>
